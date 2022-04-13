@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(27, 27, 27);
+    opacity: 80%;
+    justify-content: center;
+}
+.nav ul{
+    display: flex;
+}
+
+.nav .logo{
+    position: relative;
+    top: 10px;
+}
+.nav li{
+    list-style-type: none;
+    margin: 9px;
+    padding-left: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 50;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.watch .item img{
+    
+    padding-left: 30px;
+    align-items: center;
+}
+.watch .item .aling2{
+    padding-left: 10px;
+}
+.watch .item .aling{
+    padding-left: 15px;
+}
+.watch .item p{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-left: 30px;
+}
+.watch .item:hover{
+    color: #0071e3;
+}
+.image-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.heading h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #1d1d1f;
+    font-family: font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+.heading h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.button p{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #0071e3;
+    color: white;
+    background-color: #0071e3;
+    width: 55px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 35px 0px 15px 0px;
+}
+.heading .link{
+    display: flex;
+    justify-content: center;
+
+}
+.link a{
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0071e3;
+}
+.link img{
+    position: relative;
+    top: 4px;
+    fill: #0071e3;
+}
+
+.link a:hover{
+    border-bottom: 2px solid #0071e3;
+}
+.banner img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
